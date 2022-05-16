@@ -1,0 +1,23 @@
+
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 960px;
+    width: 960px;
+    height: 500px;
+    background: grey;
+    border: 1px solid black;
+    display: grid;
+}
+
+.gridItem{
+    word-break: break-all;
+}
