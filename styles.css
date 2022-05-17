@@ -5,15 +5,25 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.pickSize{
+    margin-bottom: 30px;
+}
+
+.clearCanvas{
+    margin-bottom: 30px;
+}
+
 
 .container{
     max-width: 960px;
     width: 960px;
     height: 500px;
-    background: grey;
+    background: #808080;
     border: 1px solid black;
     display: grid;
 }
@@ -21,9 +31,10 @@ body{
 .gridItem{
     word-break: break-all;
     border: 1px solid rgba(0, 0, 0, .5);
+    background-color: grey;
 }
 
 .gridItemHover{
-    background-color: lightblue;
+    
     border: 1px solid rgba(0, 0, 0, .5);
 }
